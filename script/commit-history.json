@@ -1,0 +1,192 @@
+[
+  {
+    "sha": "bc428072ceb28600ed295fab4852bcd7aa84bfbf",
+    "author": "ERICK1766",
+    "commit": {
+      "date": "2025-08-21T13:28:17.000Z",
+      "message": "feat: Mostrar 'Hola' fijo en la página",
+      "url": "https://github.com/eri17666/tarea-_bot/commit/bc428072ceb28600ed295fab4852bcd7aa84bfbf"
+    },
+    "stats": {
+      "total": 34,
+      "additions": 6,
+      "deletions": 28,
+      "date": "2025-08-21"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "c706efbc8e451a929271bbddd845cf304d2bc413",
+    "author": "ERICK1766",
+    "commit": {
+      "date": "2025-08-21T13:33:24.000Z",
+      "message": "feat: Mostrar 'Hola' dinámico desde JS",
+      "url": "https://github.com/eri17666/tarea-_bot/commit/c706efbc8e451a929271bbddd845cf304d2bc413"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2025-08-21"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "434248ab3438d07363f8decb25129e45325c33f0",
+    "author": "ERICK1766",
+    "commit": {
+      "date": "2025-08-21T13:46:36.000Z",
+      "message": "feat: Saludar dependiendo de la hora del día",
+      "url": "https://github.com/eri17666/tarea-_bot/commit/434248ab3438d07363f8decb25129e45325c33f0"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 16,
+      "deletions": 3,
+      "date": "2025-08-21"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "ba984c87192728893c38b12d229cdc86a48d2a84",
+    "author": "ERICK1766",
+    "commit": {
+      "date": "2025-08-21T14:02:26.000Z",
+      "message": "feat: Personalizar saludo con el nombre del usuario",
+      "url": "https://github.com/eri17666/tarea-_bot/commit/ba984c87192728893c38b12d229cdc86a48d2a84"
+    },
+    "stats": {
+      "total": 29,
+      "additions": 24,
+      "deletions": 5,
+      "date": "2025-08-21"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "fd568da71546bcab3e5ae4396b3bead07e3fb14a",
+    "author": "ERICK1766",
+    "commit": {
+      "date": "2025-08-26T02:46:04.000Z",
+      "message": "feat: Saludar considerando género",
+      "url": "https://github.com/eri17666/tarea-_bot/commit/fd568da71546bcab3e5ae4396b3bead07e3fb14a"
+    },
+    "stats": {
+      "total": 36,
+      "additions": 29,
+      "deletions": 7,
+      "date": "2025-08-26"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "7ca881af31179c11ebc8f8443021f4281ed5725c",
+    "author": "ERICK1766",
+    "commit": {
+      "date": "2025-08-26T03:03:43.000Z",
+      "message": "feat: Saludar considerando edad (>30 usa Sr./Sra.)",
+      "url": "https://github.com/eri17666/tarea-_bot/commit/7ca881af31179c11ebc8f8443021f4281ed5725c"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 14,
+      "deletions": 3,
+      "date": "2025-08-26"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "e2cb25f9c8f3e481762be776ed6702fbff530a17",
+    "author": "ERICK1766",
+    "commit": {
+      "date": "2025-08-26T03:38:46.000Z",
+      "message": "feat: Saludar en español e inglés",
+      "url": "https://github.com/eri17666/tarea-_bot/commit/e2cb25f9c8f3e481762be776ed6702fbff530a17"
+    },
+    "stats": {
+      "total": 38,
+      "additions": 33,
+      "deletions": 5,
+      "date": "2025-08-26"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "38c7f3ee8b56392f130a2be24463429e1dccaf48",
+    "author": "ERICK1766",
+    "commit": {
+      "date": "2025-08-26T04:09:18.000Z",
+      "message": "feat: implementacion test",
+      "url": "https://github.com/eri17666/tarea-_bot/commit/38c7f3ee8b56392f130a2be24463429e1dccaf48"
+    },
+    "stats": {
+      "total": 92,
+      "additions": 87,
+      "deletions": 5,
+      "date": "2025-08-26"
+    },
+    "coverage": 77.78,
+    "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "c962f30d295841d9fa3b0c452151b8a5f7a5bd6c",
+    "author": "ERICK1766",
+    "commit": {
+      "date": "2025-08-26T05:19:05.000Z",
+      "message": "feat: solucionando correccionen presenter.js y pruebas test)",
+      "url": "https://github.com/eri17666/tarea-_bot/commit/c962f30d295841d9fa3b0c452151b8a5f7a5bd6c"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 5,
+      "deletions": 5,
+      "date": "2025-08-26"
+    },
+    "coverage": 77.78,
+    "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ERICK1766",
+    "commit": {
+      "date": "2025-09-04T04:59:18.000Z",
+      "message": "Primer commit: versión inicial del proyecto",
+      "url": "https://github.com/eri17666/tarea-_bot/commit/HEAD"
+    },
+    "stats": {
+      "total": 5947,
+      "additions": 2691,
+      "deletions": 3256,
+      "date": "2025-09-04"
+    },
+    "coverage": 77.78,
+    "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]

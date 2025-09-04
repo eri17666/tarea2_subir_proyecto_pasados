@@ -1,0 +1,13 @@
+node_modules
+<<<<<<< HEAD
+=======
+.cache
+dist
+.parcel-cache
+/coverage
+.DS_Store
+report.json
+./.husky/_
+tdd_log.json
+.husky/.commit-state
+>>>>>>> ce9d772d18409ead09cdf86cf8e203208244ac29

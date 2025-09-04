@@ -1,0 +1,44 @@
+<div class="fondo">
+    <div class="fondooscuro">
+      <header>
+        <div class="logo">ESPACIOS BOLIVIA</div>
+        <nav class="navegacion">
+          <a routerLink="/iniciopagina">INICIO</a>
+          <a routerLink="/calendario">CALENDARIO</a>
+          <a routerLink="/mapa">MAPA</a>
+          <a routerLink="/iniciosesion">INICIAR SESIÓN</a>
+          <a routerLink="/registrogeneral" class="boton-registro">REGISTRO</a>
+        </nav>
+      </header>
+    </div>
+  
+    <div class="l2">
+      <h1>CALENDARIO 2024 - EVENTOS</h1>
+      <p>Consulta los eventos programados y organiza tus actividades en base a nuestros espacios disponibles.</p>
+    </div>
+  
+    <!-- Filtro por rango de fechas -->
+    <div class="filtro-fechas">
+      <label for="fechaInicio">Fecha Inicio:</label>
+      <input type="date" id="fechaInicio" [(ngModel)]="fechaInicio" />
+      <label for="fechaFin">Fecha Fin:</label>
+      <input type="date" id="fechaFin" [(ngModel)]="fechaFin" />
+      <button (click)="filtrarEventosPorRango()">Filtrar</button>
+    </div>
+  
+    <!-- Resumen de eventos -->
+    <div class="resumen-eventos">
+      <h2>Resumen de Eventos</h2>
+      <ul>
+        <li>Pendientes: {{ resumenEventos.pendientes }}</li>
+        <li>Confirmados: {{ resumenEventos.confirmados }}</li>
+        <li>Rechazados: {{ resumenEventos.rechazados }}</li>
+      </ul>
+    </div>
+  
+    <!-- Calendario -->
+    <div class="calendar-container">
+      <full-calendar [options]="calendarOptions"></full-calendar>
+    </div>
+  </div>
+  

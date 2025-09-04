@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Saludador Bot</title>
+  </head>
+  <body>
+    <h1>
+      <span id="saludo-span"></span>
+    </h1>
+    
+    <label for="nombre">Tu nombre:</label>
+    <input type="text" id="nombre" placeholder="Escribe tu nombre" />
+    
+    <label for="genero">Género:</label>
+    <select id="genero">
+      <option value="">-- Selecciona --</option>
+      <option value="M">Masculino</option>
+      <option value="F">Femenino</option>
+    </select>
+
+    <label for="edad">Edad:</label>
+    <input type="number" id="edad" placeholder="Ingresa tu edad" />
+
+    <label for="idioma">Idioma:</label>
+    <select id="idioma">
+      <option value="es">Español</option>
+      <option value="en">English</option>
+    </select>
+
+    
+    <script type="module" src="./src/presenter.js"></script>
+  </body>
+</html>

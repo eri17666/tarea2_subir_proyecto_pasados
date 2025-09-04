@@ -1,0 +1,159 @@
+/* Fondo general */
+.fondo {
+    background-color: #f4f4f9; /* Fondo suave */
+    color: #333; /* Texto oscuro */
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+  }
+  
+  /* Fondo oscuro del encabezado */
+  .fondooscuro {
+    background-color: #2c3e50; /* Azul oscuro */
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* Logo */
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Navegación */
+  .navegacion {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .navegacion a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navegacion a:hover {
+    background-color: #34495e; /* Efecto hover */
+    border-radius: 5px;
+  }
+  
+  /* Título principal */
+  .l2 h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 28px;
+    color: #2c3e50;
+  }
+  
+  .l2 p {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* Contenedor del calendario */
+  .calendar-container {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 900px;
+  }
+  
+  /* Filtro por fechas */
+  .filtro-fechas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .filtro-fechas label {
+    font-size: 16px;
+    color: #2c3e50;
+  }
+  
+  .filtro-fechas input[type="date"] {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  
+  .filtro-fechas button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .filtro-fechas button:hover {
+    background-color: #2980b9; /* Azul más oscuro */
+  }
+  
+  /* Resumen de eventos */
+  .resumen-eventos {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #ecf0f1; /* Fondo claro */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resumen-eventos h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #2c3e50;
+  }
+  
+  .resumen-eventos ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .resumen-eventos li {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  /* Responsividad */
+  @media (max-width: 768px) {
+    .navegacion {
+      flex-direction: column;
+    }
+  
+    .filtro-fechas {
+      flex-direction: column;
+    }
+  
+    .filtro-fechas label,
+    .filtro-fechas input[type="date"],
+    .filtro-fechas button {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .resumen-eventos {
+      padding: 10px;
+    }
+  
+    .calendar-container {
+      padding: 10px;
+    }
+  }
+  
